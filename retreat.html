@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ретрит-перезагрузка в Хуахине: архитектура тела и ментальный детокс | Siam Hua Hin</title>
+<meta name="description" content="Ретрит в Хуахине: хатха-йога по традиции Бихарской школы, лаборатория осанки, звуковая терапия поющими чашами, авторское вегетарианское меню и колорит королевского курорта Таиланда. Для новичков и продвинутых практиков.">
+<meta name="keywords" content="ретрит Хуахин, йога ретрит Таиланд, Бихарская школа йоги, осанка, звуковая терапия, саундхилинг, ментальный детокс">
+<link rel="canonical" href="https://siamhuahin.com/retreat.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Siam Hua Hin">
+<meta property="og:title" content="Ретрит-перезагрузка в Хуахине: архитектура тела и ментальный детокс">
+<meta property="og:description" content="Бережное путешествие к истинному «Я»: хатха-йога Бихарской школы, лаборатория осанки, звуковая терапия и вкусы Сиама на королевском курорте Таиланда.">
+<meta property="og:url" content="https://siamhuahin.com/retreat.html">
+<meta property="og:image" content="https://siamhuahin.com/img/retreat/hero.jpg">
+<link rel="icon" type="image/png" href="img/logo_white.png">
+<link rel="stylesheet" href="css/style.css?v=20260903">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Oswald:wght@400;500;600&family=Rubik:wght@300;400;500;600;700&family=Bebas+Neue&family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ═══ Шрифтовая адаптация страниц ретрита под кириллицу ═══
+   Bebas Neue и Kanit не содержат кириллицы, поэтому для русского
+   текста подключены ближайшие аналоги: Oswald (заголовки) и Rubik (текст).
+   Латинские элементы бренда сохраняют Bebas Neue / Kanit. */
+body{font-family:'Rubik','Kanit',sans-serif;}
+html{scroll-padding-top:84px;}
+h1,h2,h3,.tour-title,.booking-title,.rt-h{font-family:'Oswald','Bebas Neue',sans-serif;}
+.nav-links a,.mobile-menu a,.nav-cta,.btn-primary,.btn-outline,.footer-links a,.footer-copy,.section-sub,.cc-lbl,.cc-val,.badge,.eyebrow,.stat-lbl,.pb-tags span{font-family:'Rubik','Kanit',sans-serif;}
+
+/* ═══ HERO ═══ */
+.rt-hero{position:relative;min-height:640px;display:flex;align-items:flex-end;
+  background:linear-gradient(180deg,rgba(6,36,62,.30) 0%,rgba(6,36,62,.42) 45%,rgba(6,36,62,.92) 100%),url('img/retreat/hero.jpg') center 45%/cover no-repeat;}
+.rt-hero-inner{max-width:1100px;width:100%;margin:0 auto;padding:150px 24px 56px;color:#fff;}
+.rt-hero .eyebrow{color:#fff;}
+.rt-hero h1{font-weight:500;font-size:clamp(40px,6vw,72px);line-height:1.06;letter-spacing:1px;margin:12px 0 16px;color:#fff;max-width:920px;}
+.rt-hero h1 span{color:var(--orange);}
+.rt-lead{font-size:17px;line-height:1.7;max-width:680px;margin:0 0 22px;color:rgba(255,255,255,.92);font-weight:300;}
+.rt-lead em{font-family:'Cormorant Garamond',serif;font-size:20px;}
+.rt-pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px;}
+.rt-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);
+  color:#fff;font-size:13px;font-weight:500;letter-spacing:.4px;padding:8px 16px;border-radius:999px;backdrop-filter:blur(4px);}
+.rt-pill b{color:var(--orange);font-weight:600;}
+.rt-cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;}
+.rt-btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:8px;font-weight:600;font-size:15px;
+  letter-spacing:.04em;transition:transform .15s,box-shadow .15s,background .2s;}
+.rt-btn:hover{transform:translateY(-2px);}
+.rt-btn-more{background:var(--orange);color:#fff;box-shadow:0 10px 26px rgba(244,121,32,.4);}
+.rt-btn-more:hover{background:var(--orange-dk);}
+.rt-btn-wa{background:#25D366;color:#fff;box-shadow:0 8px 20px rgba(37,211,102,.3);}
+.rt-btn-ghost{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.45);font-weight:400;}
+.rt-btn-dark{background:var(--dark);color:#fff;}
+
+/* ═══ FACTS STRIP ═══ */
+.rt-facts{background:var(--blue);color:#fff;}
+.rt-facts ul{max-width:1100px;margin:0 auto;padding:18px 24px;list-style:none;display:flex;flex-wrap:wrap;gap:10px 34px;justify-content:center;font-size:14.5px;font-weight:300;}
+.rt-facts li{display:flex;gap:8px;align-items:center;}
+
+/* ═══ SECTIONS ═══ */
+.rt-sec{max-width:1100px;margin:0 auto;padding:80px 24px 8px;}
+.rt-sec h2{font-weight:500;font-size:clamp(34px,4.6vw,56px);line-height:1.1;letter-spacing:1.5px;margin:0 0 14px;color:var(--dark);}
+.rt-sec h2 span{color:var(--blue-mid);}
+.rt-sec>p.rt-intro{font-size:16px;line-height:1.8;color:var(--gray);max-width:780px;}
+.rt-center{text-align:center;}
+.rt-center>p.rt-intro,.rt-center .rt-intro{margin-left:auto;margin-right:auto;}
+.rt-note-quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;line-height:1.55;color:var(--blue);max-width:720px;margin:18px auto 0;}
+
+/* ═══ PROGRAM CARDS ═══ */
+.rt-options{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;margin-top:34px;}
+.rt-opt{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 40px rgba(11,79,138,.10);display:flex;flex-direction:column;border:1px solid var(--border);transition:transform .3s,box-shadow .3s;}
+.rt-opt:hover{transform:translateY(-4px);box-shadow:0 16px 56px rgba(11,79,138,.16);}
+.rt-opt-img{aspect-ratio:16/10;background-size:cover;background-position:center;position:relative;}
+.rt-opt-tag{position:absolute;top:14px;left:14px;background:var(--orange);color:#fff;font-size:11.5px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;padding:5px 12px;border-radius:999px;}
+.rt-opt-tag.alt{background:var(--blue);}
+.rt-opt-body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:11px;flex:1;}
+.rt-opt h3{font-size:20px;line-height:1.3;margin:0;color:var(--blue);font-weight:500;letter-spacing:.5px;}
+.rt-opt p{font-size:14.5px;line-height:1.7;margin:0;color:var(--gray);font-weight:300;}
+.rt-opt-link{margin-top:auto;display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--orange-dk);}
+.rt-opt-link::after{content:'→';transition:transform .2s;}
+.rt-opt-link:hover::after{transform:translateX(4px);}
+
+/* ═══ TAKEAWAYS ═══ */
+.rt-take{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:30px;}
+.rt-callout{border-radius:14px;padding:22px 24px;background:var(--orange-pale);border:1px solid #FFD9B5;}
+.rt-callout.blue{background:var(--blue-pale);border-color:#B5D8F0;}
+.rt-callout .rt-ic{font-size:26px;margin-bottom:8px;display:block;}
+.rt-callout strong{display:block;font-size:16.5px;color:var(--orange-dk);margin-bottom:5px;font-weight:600;}
+.rt-callout.blue strong{color:var(--blue);}
+.rt-callout span{font-size:14.5px;line-height:1.6;color:var(--dark);font-weight:300;}
+
+/* ═══ CTA BOX ═══ */
+.rt-book{margin:80px auto 0;max-width:1100px;padding:0 24px 80px;}
+.rt-book-box{background:linear-gradient(135deg,var(--blue) 0%,var(--dark) 100%);color:#fff;border-radius:22px;padding:48px 36px;text-align:center;}
+.rt-book-box h2{color:#fff;margin:0 0 12px;font-weight:500;letter-spacing:1.5px;}
+.rt-book-box h2 span{color:var(--orange);}
+.rt-book-box p{color:rgba(255,255,255,.88);font-size:16px;line-height:1.65;margin:0 auto 26px;max-width:620px;font-weight:300;}
+.rt-book-box .rt-cta-row{justify-content:center;}
+.rt-book-small{font-size:13px !important;margin:18px auto 0 !important;opacity:.75;}
+
+/* ═══ Reveal animation (как fade-in на сайте) ═══ */
+.rt-reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease;}
+.rt-reveal.rt-on{opacity:1;transform:translateY(0);}
+
+@media (max-width:900px){
+  .rt-hero{min-height:560px;}
+  .rt-hero-inner{padding:120px 20px 44px;}
+  .rt-sec{padding:56px 20px 4px;}
+  .rt-options{grid-template-columns:1fr;}
+  .rt-book{padding:0 20px 60px;}
+  .rt-book-box{padding:36px 22px;}
+  .rt-btn{flex:1 1 auto;justify-content:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="https://siamhuahin.com/index.html" class="nav-logo">
+      <div class="nav-logo-img"><img src="img/logo_white.png" alt="Логотип Siam Hua Hin"></div>
+      <div class="nav-brand-wrap">
+        <span class="nav-brand">SIAM HUA HIN</span>
+        <span class="nav-sub">Tours &amp; Boat Charters</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="https://siamhuahin.com/index.html#tours">Наши туры</a></li>
+      <li><a href="https://siamhuahin.com/index.html#nature">Природный тур</a></li>
+      <li><a href="retreat.html" style="color:var(--orange);">Ретрит</a></li>
+      <li><a href="https://siamhuahin.com/gallery.html">Галерея</a></li>
+      <li><a href="https://siamhuahin.com/team.html">Наша команда</a></li>
+      <li><a href="https://siamhuahin.com/reviews.html">Отзывы</a></li>
+      <li><a href="https://siamhuahin.com/index.html#contact">Контакты</a></li>
+      <li><a href="https://siamhuahin.com/booking.html" class="nav-cta">Забронировать</a></li>
+    </ul>
+    <button class="hamburger" id="ham">&#9776;</button>
+  </div>
+  <div class="mobile-menu" id="mob-menu">
+    <a href="https://siamhuahin.com/index.html#tours">Наши туры</a>
+    <a href="https://siamhuahin.com/index.html#nature">Природный тур</a>
+    <a href="retreat.html" style="color:var(--orange);">Ретрит</a>
+    <a href="https://siamhuahin.com/gallery.html">Галерея</a>
+    <a href="https://siamhuahin.com/team.html">Наша команда</a>
+    <a href="https://siamhuahin.com/reviews.html">Отзывы</a>
+    <a href="https://siamhuahin.com/index.html#contact">Контакты</a>
+    <a href="https://siamhuahin.com/booking.html" style="color:var(--orange)!important;font-weight:600;">Забронировать</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="rt-hero">
+  <div class="rt-hero-inner">
+    <p class="eyebrow">Ретрит в Хуахине &middot; Таиланд</p>
+    <h1>АРХИТЕКТУРА ТЕЛА<br>И <span>МЕНТАЛЬНЫЙ ДЕТОКС</span></h1>
+    <p class="rt-lead">Позвольте себе роскошь замедлиться и вернуть внутреннюю опору на королевском курорте Таиланда. Бережное путешествие к истинному «Я», где сакральные традиции Востока соединяются с современной терапией тела, эстетикой тропиков и экзотическими вкусами Сиама.</p>
+    <div class="rt-pills">
+      <span class="rt-pill">🧘 Хатха-йога <b>Бихарской школы</b> (Индия)</span>
+      <span class="rt-pill">✨ Для новичков и <b>продвинутых</b></span>
+      <span class="rt-pill">🔔 Живая <b>звуковая терапия</b></span>
+    </div>
+    <div class="rt-cta-row">
+      <a href="retreat-details.html" class="rt-btn rt-btn-more">Подробнее о программе</a>
+      <a href="https://wa.me/66626127341" target="_blank" rel="noopener" class="rt-btn rt-btn-wa">Обсудить участие</a>
+      <a href="retreat-details.html#program" class="rt-btn rt-btn-ghost">Все детали</a>
+    </div>
+  </div>
+</header>
+
+<!-- QUICK FACTS -->
+<section class="rt-facts" aria-label="Ключевые факты о ретрите">
+  <ul>
+    <li>🌴 Королевский курорт Хуахин</li>
+    <li>🌅 Утренние и вечерние практики</li>
+    <li>📐 Лаборатория осанки</li>
+    <li>🍍 Авторское вегетарианское меню</li>
+    <li>🌊 Океанский бриз и тропики</li>
+  </ul>
+</section>
+
+<!-- PROGRAM OVERVIEW -->
+<section class="rt-sec" id="program">
+  <p class="eyebrow">Программа ретрита</p>
+  <h2>ЧЕТЫРЕ ИЗМЕРЕНИЯ <span>ПЕРЕЗАГРУЗКИ</span></h2>
+  <p class="rt-intro">Программа выстроена настолько экологично, что идеально подойдет как для первого знакомства с йогой, так и для углублённой практики. Каждый день — плавное движение от пробуждения тела к тишине ума.</p>
+
+  <div class="rt-options">
+    <article class="rt-opt rt-reveal">
+      <div class="rt-opt-img" style="background-image:url('img/retreat/yoga-morning.jpg');" role="img" aria-label="Утренняя практика хатха-йоги в открытом тропическом павильоне"><span class="rt-opt-tag">Практика</span></div>
+      <div class="rt-opt-body">
+        <h3>Аутентичные утренние и вечерние практики</h3>
+        <p>Йога в её истинном, глубоком понимании: мягкое пробуждение энергии в начале дня и освобождение ума от ментального шума и стресса по вечерам.</p>
+        <a class="rt-opt-link" href="retreat-details.html#practices">Подробнее</a>
+      </div>
+    </article>
+
+    <article class="rt-opt rt-reveal">
+      <div class="rt-opt-img" style="background-image:url('img/retreat/posture.jpg');" role="img" aria-label="Инструктор помогает отстроить осанку"><span class="rt-opt-tag alt">Тело</span></div>
+      <div class="rt-opt-body">
+        <h3>Лаборатория осанки и биомеханика</h3>
+        <p>Детальная отстройка позиций и работа с глубокими мышцами-стабилизаторами: деликатные техники мягко стирают зажимы и возвращают телу королевскую стать.</p>
+        <a class="rt-opt-link" href="retreat-details.html#posture">Подробнее</a>
+      </div>
+    </article>
+
+    <article class="rt-opt rt-reveal">
+      <div class="rt-opt-img" style="background-image:url('img/retreat/sound-healing.jpg');" role="img" aria-label="Звуковая терапия поющими чашами"><span class="rt-opt-tag">Глубина</span></div>
+      <div class="rt-opt-body">
+        <h3>Звуковая терапия (Саундхилинг)</h3>
+        <p>Кульминация погружения — медитация под живые вибрации поющих чаш, запускающая восстановление на уровне каждой клетки тела.</p>
+        <a class="rt-opt-link" href="retreat-details.html#sound">Подробнее</a>
+      </div>
+    </article>
+
+    <article class="rt-opt rt-reveal">
+      <div class="rt-opt-img" style="background-image:url('img/retreat/thai-food.jpg');" role="img" aria-label="Вегетарианская тайская кухня"><span class="rt-opt-tag alt">Вкус</span></div>
+      <div class="rt-opt-body">
+        <h3>Вкус и колорит Таиланда</h3>
+        <p>Авторское вегетарианское меню из свежайших местных продуктов, эксклюзивный мастер-класс тайской кухни и экскурсии по уютному королевскому городу.</p>
+        <a class="rt-opt-link" href="retreat-details.html#thai">Подробнее</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- TAKEAWAYS -->
+<section class="rt-sec" id="results">
+  <div class="rt-center">
+    <p class="eyebrow" style="justify-content:center;">Результат</p>
+    <h2>ЧТО ВЫ <span>УНЕСЁТЕ С СОБОЙ</span></h2>
+    <p class="rt-note-quote">«Чувство глубокого обновления — будто после полноценного отпуска»</p>
+  </div>
+  <div class="rt-take">
+    <div class="rt-callout rt-reveal"><span class="rt-ic">💎</span><strong>Глубокое обновление</strong><span>Ощущение полноценного отпуска и внутренней опоры, которую хочется сохранять каждый день.</span></div>
+    <div class="rt-callout blue rt-reveal"><span class="rt-ic">📐</span><strong>Королевская осанка</strong><span>Лёгкость в теле и новое понимание движений — ресурс, который остаётся с вами.</span></div>
+    <div class="rt-callout blue rt-reveal"><span class="rt-ic">⚖️</span><strong>Инструменты баланса</strong><span>Действующие практики для поддержания равновесия в повседневной жизни.</span></div>
+    <div class="rt-callout rt-reveal"><span class="rt-ic">🤝</span><strong>Знакомства и воспоминания</strong><span>Новые вдохновляющие люди и яркие, сочные воспоминания о Сиаме.</span></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="rt-book" id="book">
+  <div class="rt-book-box">
+    <h2>ГОТОВЫ К <span>ПЕРЕЗАГРУЗКЕ?</span></h2>
+    <p>Расскажем о ближайших датах, программе и проживании. Просто напишите нам — и позвольте себе роскошь замедлиться.</p>
+    <div class="rt-cta-row">
+      <a href="retreat-details.html" class="rt-btn rt-btn-more">Подробнее о программе</a>
+      <a href="https://wa.me/66626127341" target="_blank" rel="noopener" class="rt-btn rt-btn-wa">WhatsApp</a>
+      <a href="mailto:info@siamhuahin.com?subject=Ретрит%20в%20Хуахине" class="rt-btn rt-btn-ghost">info@siamhuahin.com</a>
+    </div>
+    <p class="rt-book-small">Отвечаем быстро &middot; Бесплатный трансфер из всех отелей Хуахина</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo-row" style="display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:8px;">
+      <div class="footer-logo-circle" style="width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;overflow:hidden;padding:4px;"><img src="img/logo_white.png" alt="Siam Hua Hin" style="width:44px;height:44px;object-fit:contain;"></div>
+      <div>
+        <div class="footer-brand">SIAM HUA HIN</div>
+        <div class="footer-tagline">Tours &amp; Boat Charters &middot; Hua Hin, Thailand</div>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <ul class="footer-links">
+      <li><a href="https://siamhuahin.com/index.html#tours">Лодочный чартер</a></li>
+      <li><a href="https://siamhuahin.com/index.html#tours">Спортивная рыбалка</a></li>
+      <li><a href="https://siamhuahin.com/index.html#nature">Природный тур</a></li>
+      <li><a href="https://siamhuahin.com/tours/kui-buri-elephant-safari-khao-daeng/">Сафари на слонах</a></li>
+      <li><a href="retreat.html" style="color:rgba(255,255,255,.8);">Ретрит</a></li>
+      <li><a href="https://siamhuahin.com/gallery.html">Галерея</a></li>
+      <li><a href="https://siamhuahin.com/team.html">Наша команда</a></li>
+      <li><a href="https://siamhuahin.com/reviews.html">Отзывы</a></li>
+      <li><a href="https://siamhuahin.com/booking.html">Забронировать</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2025 Siam Hua Hin. Все права защищены. &middot; Бесплатный трансфер из всех отелей Хуахина.</p>
+  </div>
+</footer>
+
+<script>
+// Nav scroll effect (как на сайте)
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('navbar');
+  if (nav) nav.style.borderBottomWidth = window.scrollY > 60 ? '3px' : '2px';
+});
+// Hamburger menu
+const hamburger = document.getElementById('ham');
+const mobileMenu = document.getElementById('mob-menu');
+if (hamburger && mobileMenu) {
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+    hamburger.textContent = mobileMenu.classList.contains('open') ? '✕' : '☰';
+  });
+  document.querySelectorAll('.mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      hamburger.textContent = '☰';
+    });
+  });
+}
+// Reveal on scroll
+const rtObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('rt-on'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.rt-reveal').forEach(el => rtObserver.observe(el));
+</script>
+</body>
+</html>
